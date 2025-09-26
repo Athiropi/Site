@@ -5,5 +5,5 @@
 }
 
 .background{
-    background: url('https://raw.githubusercontent.com/Athiropi/Wolvden/main/Personal/Images/Final.jpeg')
+    background-size: cover;
 }
