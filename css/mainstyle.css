@@ -1,0 +1,8 @@
+.header-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.background{
+    background: url('https://raw.githubusercontent.com/Athiropi/Wolvden/main/Personal/Images/Final.jpeg')
+}
