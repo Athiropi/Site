@@ -1,6 +1,8 @@
 :root{
-
+    background:rgba(255,255,0,1);
 }
+a{
+    color:red;}
 
 .top-bar{
     position:fixed;
@@ -8,7 +10,13 @@
     left:0;
     max-width:100%;
     display:flex;
-    flex-direction: row;}
+    flex-direction: row;
+    background:rgba(0,255,255,1);}
+
+#portfolio{
+    display:flex;
+    flex-direction: column;
+    height:10%;}
 
 .container{
     background-image: url("https://raw.githubusercontent.com/Athiropi/Site/main/Assets/Background.jpg");
