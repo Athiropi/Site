@@ -1,10 +1,11 @@
-.header-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+:root{
+
 }
 
-.background{
-    background-size: cover;
-    align-content: center;
-}
+.top-bar{
+    position:fixed;
+    top:0;
+    left:0;
+    max-width:100%;
+    display:flex;
+    flex-direction: row;}
