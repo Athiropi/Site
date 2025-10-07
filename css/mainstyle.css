@@ -9,3 +9,7 @@
     max-width:100%;
     display:flex;
     flex-direction: row;}
+
+.container{
+    background-image: url("https://raw.githubusercontent.com/Athiropi/Site/main/Assets/Background.jpeg");
+}
