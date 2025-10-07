@@ -1,0 +1,157 @@
+:root{
+    font-family:"Arial", Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:white;}
+i{
+    font-style:normal;}
+
+.nav-bar{
+    position: fixed;
+    top: 0;
+    left:0;
+    background: black;
+    display: flex;
+    min-width: 100%;
+    justify-content: space-evenly;
+    margin:0;}
+
+
+.nav-bar > *, .portfolio-dropdown .p-dropdown-btn{
+    width: 100%;
+    text-align: center;}
+.nav-bar a{
+    padding-top:15px;
+}
+
+.p-dropdown-btn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;}
+
+.portfolio-dropdown {
+  position: relative;
+  display: inline-block;}
+
+.p-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    width:100%;}
+
+.p-dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;}
+
+.p-dropdown-content a:hover {
+    background-color: #ddd;}
+
+.portfolio-dropdown:hover .p-dropdown-content {
+    display: block;
+    color: white;
+    background: #313131;
+    border:0;}
+
+.portfolio-dropdown:hover .p-dropdown-btn, .nav-bar > a:hover {
+    background-color: #313131;
+    border-bottom: 5px solid rgb(66, 190, 255);}
+
+.nav-bar a:hover{
+    text-shadow: 0px 0px 10px  white;
+}
+
+.p-dropdown-content a:hover{
+    background: #525252;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.nav-bar{
+    position:fixed;
+    top:0;
+    left:0;
+    min-width: 100%;
+    max-height:8%;
+    display:flex;
+    flex-direction: row;
+    background:rgb(0, 0, 0);
+    justify-content:space-evenly;
+    align-items: center;
+    font-size:20px;
+    overflow:hidden;
+}
+.nav-bar > *, .p-dropdown-btn{
+    padding:5%;
+background: black;
+    flex: 0 0 10%;}
+
+.portfolio-dropdown{
+    display:flex;
+    flex-direction: column;
+    overflow:hidden;}
+.p-dropdown-btn{
+    display:block;
+    width:100%;
+    text-decoration: none;
+    font-size: inherit;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;}
+.p-dropdown-content{
+    color:red;
+    position: absolute;
+    display:flex;
+    flex-direction:column;
+    top:100%;}
+.p-dropdown-content a {
+  float: none;
+  color: blue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;}
+
+.nav-bar a:hover, .portfolio-dropdown:hover{
+  background-color: rgb(39,39,39);
+    overflow:visible;}
+.portfolio-dropdown:hover{
+overflow: visible;
+}
+
+.container{
+    background-image: url("https://raw.githubusercontent.com/Athiropi/Site/main/Assets/Background.jpg");
+}
+*/
+@media(max-width: 740px){
+    .nav-bar > *{
+        padding:0;
+    }
+}
