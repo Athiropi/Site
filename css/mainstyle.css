@@ -1,5 +1,10 @@
+@font-face{
+    font-family: "Oradano Micho";
+    src: url("https://raw.githubusercontent.com/Athiropi/Wolvden/main/Personal/Font/OradanoGSRR.ttf");
+}
+
 :root{
-    font-family:"Arial", Arial, sans-serif;
+    font-family:"Oradano Micho", Arial, sans-serif;
 }
 
 a{
